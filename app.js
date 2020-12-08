@@ -1,12 +1,12 @@
 //variables
-filter[1].style.background='white';
-filter[1].style.color="black";
 let list=document.querySelector(".list");
 let add=document.querySelector(".add");
 let value=document.querySelector("#todo");
 let filter=document.querySelectorAll(".filter span");
 
 //funtions
+filter[1].style.background='white';
+filter[1].style.color="black";
 createItem=()=>{
     let itemContainer=document.createElement('li');
     itemContainer.classList.add('itemContainer');
