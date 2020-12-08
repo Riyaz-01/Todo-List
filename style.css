@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-image: linear-gradient(30deg, rgb(0, 214, 168), rgb(2, 76, 160));
+  background-attachment: fixed;
+  color: white;
+}
+header {
+  font-size: 60px;
+  text-align: center;
+  margin: 30px;
+  font-weight: 500;
+  letter-spacing: 7px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#todo,
+.listItem {
+  color: black;
+  padding: 5px;
+  outline: none;
+  height: 30px;
+  width: 3 00px;
+  font-size: 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+}
+.filter {
+  margin-top: 80px;
+  text-align: center;
+}
+.filter span {
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.remove {
+  display: none;
+}
+.add,
+.delete,
+.mark {
+  outline: none;
+  background: rgba(0, 0, 0, 0);
+  color: black;
+  font-size: 25px;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+.add:hover,
+.delete:hover,
+.mark:hover {
+  color: white;
+  cursor: pointer;
+}
+.list {
+  margin: 30px auto;
+  width: 400px;
+  list-style-type: decimal;
+  color: black;
+  font-weight: 600;
+  transform: translateX(12px);
+}
+.listItem {
+  display: inline-block;
+  width: 330px;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-weight: 550;
+}
+.marked {
+  transition: all 0.5s ease;
+  opacity: 50%;
+  text-decoration: line-through;
+}
+.fall {
+  transition: all 0.3s ease-in;
+  transform: translateX(8rem);
+  opacity: 0%;
+}
